@@ -154,7 +154,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('𝙰𝚖𝚊𝚕𝚜𝚎𝚛 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
+            chalk.green.bold('Kᴇʟʟʏ Ꮇᴡᴏʟ 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
           if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -352,7 +352,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Amalser ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ Kᴇʟʟʏ Ꮇᴡᴏʟ ~______~*' +
                                     '\n*🌀 Subcribe this channel other wise chance to get erorr: https://youtube.com/channel/UCT7x7a4HJ72bbMNx49Z9DTA*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
